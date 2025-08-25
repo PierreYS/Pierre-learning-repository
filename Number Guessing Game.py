@@ -1,10 +1,6 @@
 import random
 import time
 
-
-    
-    
-
 def main():
     is_running = True
     while is_running:
@@ -50,9 +46,6 @@ def main():
         print("Let's start the game!")
         print()
         num_of_attempts = 0
-        
-        
-        
         
         while chance > num_of_attempts:
             guess =input("Enter your guess: ")
@@ -105,4 +98,5 @@ def main():
                 continue
 
 if __name__ == "__main__":
+
     main()
