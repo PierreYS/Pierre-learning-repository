@@ -9,7 +9,6 @@ def main():
         print("I'm thinking of a number between 1 and 100.")
         print("You have 5 chances to guess the correct number.")
         print()
-
         print("Please select the difficulty level:")
         print("1. Easy (10 chances)")
         print("2. Medium (5 chances)")
@@ -98,5 +97,5 @@ def main():
                 continue
 
 if __name__ == "__main__":
-
     main()
+
